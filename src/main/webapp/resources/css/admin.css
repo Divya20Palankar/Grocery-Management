@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+ 
+  body .add{
+    height: 750px;
+    width: 100%;
+    background: #E4E7FF;
+    
+  }
+  body .add h1{
+      text-align: center;
+      padding-top: 100px;
+  }
+  body .add form{
+      text-align: left;
+      font-size: 22px;
+  }
+  body .add form .box{
+      height: 500px;
+      width: 450px;
+      margin-left: auto;
+      margin-right:auto;
+      padding:10px;
+  }
+  body .add form input { 
+      height: 40px;
+      width:450px;
+      border-radius: 5px;
+      background-color: white;
+      padding: 10px;
+  }
+  body .add form .box select{
+      height: 40px;
+      width:450px;
+      background-color: white;
+      font-size: 20px;
+      border-radius: 5px;
+  }
+  body .add form .box .btn{
+      background-color: orange;
+      color: white;
+      font-size: 22px;
+  } 
+  body .add form .box .btn:hover{
+      background-color: white;
+      color: orange;
+  }
+ 
+
+
+
+  body .view{
+    height: 690px;
+    width: 100%;
+    background:#DBE0FF;
+  }
+  
+  body .view h1{
+    text-align: center;
+    padding-top: 100px;
+}

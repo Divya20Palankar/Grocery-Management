@@ -1,0 +1,144 @@
+@charset "ISO-8859-1";
+*{
+  font-family:sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  text-transform: capitalize; 
+  outline: none; border:none;
+  text-decoration: none; 
+}
+
+html{
+  font-size: 62.5%;                                                                      
+  overflow-x: hidden;
+  scroll-padding-left: 6rem;
+}
+
+
+header{
+  position: fixed;
+  top:0; left: 0; right:0;
+  background:#F9F1F0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:2rem 9%;
+  font-style:italic;
+}
+@media(max-width:1190px){
+  header{
+    padding:2rem 1%;
+  }
+}
+header .logo{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color:purple;
+  font-style:italic;
+}
+
+header a{
+  color:black;
+  font-size: 2rem;
+  margin:0 .8rem;
+}
+
+header a:hover{
+  color:#000080;
+}
+
+.home .content{
+    max-width: 800px;
+}
+
+.home .content h3{
+    font-size:32px;
+    color:rgb(13, 28, 56);
+    padding-left:620px;
+    padding-top:300px;
+}
+
+.home .content span{
+    font-size: 30px;
+    color:rgb(34, 43, 59);
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left:20px;
+    background:#F0ECF7;
+    padding-top:70px;
+    padding-bottom:20px;
+}
+.about .row .content{
+    flex:1 1 40px;
+}
+
+.about .row .content h3{
+    font-size: 24px;
+    color:black;
+}
+
+.about .row .content p{
+    font-size: 24px;
+    color:#999;
+    padding:8px 0;
+    padding-top: 16px;
+    line-height: 35px;
+}
+
+.footer{
+  background:#F9F1F0;
+  padding-left:20px;
+  padding-top:10px;
+}
+
+.footer .box-container{
+  display: flex;
+  gap:25px;
+}
+
+.footer .box-container .box{
+  flex:25px;
+}
+
+.footer .box-container .box h3{
+  font-size: 24px;
+  padding:.7rem 0;
+  color:black;
+}
+
+.footer .box-container .box p{
+  font-size: 1.5rem;
+  padding:.7rem 0;
+  color:#eee;
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 1.5rem;
+  padding:.7rem 0;
+  color:black;
+}
+
+.footer .box-container .box a:hover{
+  color:blue;
+  text-decoration: none;
+}
+
+.footer .credit{
+  text-align: center;
+  padding:2rem 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: normal;
+  color:black;
+  border-top: .1rem solid rgba(255,255,255,.2);
+}
+
+.footer .credit span{
+  color:orange;
+}
